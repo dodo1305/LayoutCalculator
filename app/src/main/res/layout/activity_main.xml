@@ -8,91 +8,88 @@
     tools:context="dodo1305.kr.hs.emirim.layoutcalculator.MainActivity">
 
     <EditText
-        android:id="@+id/text1"
+        android:id="@+id/edit1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
-        android:id="@+id/text2"
-        android:layout_below="@id/text1"
+        android:id="@+id/edit2"
+        android:layout_below="@id/edit1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <GridLayout
         android:rowCount="2"
         android:columnCount="5"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
     <Button
-        android:layout_below="@id/text2"
-        android:layout_width="75dp"
+        android:id="@+id/but0"
+        android:layout_width="77dp"
         android:layout_height="wrap_content"
         android:layout_gravity="fill_vertical"
         android:text="0" />
 
     <Button
-        android:layout_below="@id/text2"
-        android:layout_width="75dp"
+        android:id="@+id/but1"
+        android:layout_width="77dp"
         android:layout_height="wrap_content"
         android:layout_gravity="fill_vertical"
         android:text="1" />
 
         <Button
-            android:layout_below="@id/text2"
-            android:layout_width="75dp"
+            android:id="@+id/but2"
+            android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_vertical"
             android:text="2" />
 
         <Button
-            android:layout_below="@id/text2"
-            android:layout_width="75dp"
+            android:id="@+id/but3"
+            android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_vertical"
             android:text="3" />
 
         <Button
-
-            android:layout_below="@id/text2"
-            android:layout_width="75dp"
+            android:id="@+id/but4"
+            android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_vertical"
             android:text="4" />
 
         <Button
-
-            android:layout_below="@id/text2"
-            android:layout_width="75dp"
+            android:id="@+id/but5"
+            android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_vertical"
             android:text="5" />
 
         <Button
-            android:layout_below="@id/text2"
-            android:layout_width="75dp"
+            android:id="@+id/but6"
+            android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_vertical"
             android:text="6" />
 
         <Button
-            android:layout_below="@id/text2"
-            android:layout_width="75dp"
+            android:id="@+id/but7"
+            android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_vertical"
             android:text="7" />
 
         <Button
-            android:layout_below="@id/text2"
-            android:layout_width="75dp"
+            android:id="@+id/but8"
+            android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_vertical"
             android:text="8" />
 
         <Button
-            android:layout_below="@id/text2"
-            android:layout_width="75dp"
+            android:id="@+id/but9"
+            android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_vertical"
             android:text="9" />
@@ -102,24 +99,38 @@
             android:layout_height="wrap_content" />
 
             <Button
+                android:id="@+id/butop1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="plus"/>
 
             <Button
+
+                android:id="@+id/butop2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="minus"/>
 
             <Button
+
+                android:id="@+id/butop3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="mulitply"/>
 
             <Button
+
+                android:id="@+id/butop4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="division"/>
+
+             <TextView
+                 android:id="@+id/text_result"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="result : "
+                 android:textSize="30dp"/>
         </LinearLayout>
 
 
